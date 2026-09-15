@@ -20,7 +20,7 @@ Two CLIP backends are supported:
 - **BiomedCLIP** (`--models_name biomed`) — pulled from Hugging Face via the pip
   `open_clip_torch` package.
 - **UniMed-CLIP** (`--models_name ViT-B-16-quickgelu`) — loaded through the 
-  [`src/open_clip`](src/open_clip) package from a local checkpoint (see below).
+  [`src/open_clip`](src/open_clip) package from a local checkpoint.
 
 ## Checkpoints & data roots
 
