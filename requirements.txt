@@ -1,0 +1,29 @@
+# MedOOD dependencies.
+# Install into the project conda env:
+# conda activate qwen-vl-finetune
+#  pip install -r requirements.txt
+
+# Core
+torch
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+tqdm
+Pillow
+
+# Vision-language models
+open_clip_torch          # BiomedCLIP backend (--models_name biomed)
+huggingface_hub          # HF hub + BiomedBERT / PubMedBERT text encoders
+# UniMed-CLIP (--models_name ViT-B-16-quickgelu) 
+
+# Medical imaging / 3D volumes (OASIS)
+torchio
+monai
+nibabel
+
+# --- OASIS preprocessing only (oasis-dataprep/)
+# SimpleITK
+# HD-BET   # skull stripping; install from https://github.com/MIC-DKFZ/HD-BET
